@@ -1,6 +1,10 @@
 #!/bin/bash
 #tervitusskript
-echo -n "Tere, "
-echo -n "User"
+#echo -n "Tere User!"
+echo -n "Tere "
+echo -n `who am i | cut -c1 | tr [:lower:] [:upper:]` 
+echo -n `who am i | cut -c2-`
 echo "!"
+# skripti lõpp
+
 
