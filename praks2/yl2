@@ -1,0 +1,9 @@
+#! /bin/bash
+#
+# kasutajate nimekiri kujul Perenimi, Eesnimi
+#
+# skripti algus
+#
+awk -F':' '$3>999 {print $1}' /etc/passwd | column -t | grep -v nobody
+#
+# skripti lõpp
