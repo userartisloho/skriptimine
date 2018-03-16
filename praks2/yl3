@@ -1,0 +1,12 @@
+#! /bin/bash
+#
+# muljed teisest tunnist
+#
+# skripti algus
+#
+echo "Artis Loho"
+echo "ISP117"
+echo "Õppeaine on huvitav ja nõuab palju mõtlemist, annab võimaluse ennast proovile panna"
+echo "Oskan kasutada failide väljastamist scripti abil erinevatel viisidel"
+#
+# skripti lõpp
