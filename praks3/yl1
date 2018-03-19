@@ -1,7 +1,5 @@
 #!/bin/bash
-TODAY=$(date)
-HOST=$(hostname)
-echo "--------------------------------------------------"
-echo "Date: $TODAY"
-echo "--------------------------------------------------"
+CALENDAR=$(cal)
+echo Today is `date '+%A %d/%m/%Y %H:%M:%S'`
+echo "Cal: $CALENDAR"
 
