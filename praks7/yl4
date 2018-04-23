@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+# yl4
+#
+echo -n "Sisesta kell: "
+read kell
+if test $kell -gt 6 -a $kell -lt 12
+then
+echo "Tere hommikust!, $USER"
+elif test $kell -ge 12 -a $kell -lt 18
+then
+echo "Tere paevast!, $USER"
+elif test $kell -ge 18 -a $kell -lt 22
+then
+echo "Tere ohtust!, $USER"
+elif [ $kell -ge 22 -a $kell -lt 24 ] || [ $kell -gt 0 -a $kell -le 6 ]
+then
+echo "Head ood!, $USER"
+else
+echo "Vigane nagu sina"
+fi
+#
+# skript läbi
