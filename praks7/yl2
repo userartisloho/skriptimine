@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+echo "Sisestage kuu number"
+read kuu
+
+if [[ $kuu -ge 1 ]] && [[ $kuu -le 2 ]]
+then
+	echo "Antud kuu on talvekuu" #talv
+elif [[ $kuu -ge 3 ]] && [[ $kuu -le 5 ]]
+then
+	echo "Antud kuu on kevadkuu" # kevad
+elif [[ $kuu -ge 6 ]] && [[ $kuu -le 8 ]]
+then
+	echo "Antud kuu on suvekuu" #suvi
+elif [[ $kuu -ge 9 ]] && [[ $kuu -le 12 ]]
+then
+	echo "Antud kuu on sügiskuu" #sügis
+fi
+#
+#lõpp 
