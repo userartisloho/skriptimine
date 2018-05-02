@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo -n "Sisesta suvaline taisarv: "
+read taisarv
+summa=0
+while [ $taisarv -ne 0 ]
+do
+	jaak=$(($taisarv % 10))
+	summa=$(($summa + $jaak))
+	arv=$(($taisarv / 10))
+done
+echo "$summa"
