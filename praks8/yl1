@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# foreach näidis
+
+for arv in {1..10}
+do
+	echo $arv
+done
+#
+#lõpp
