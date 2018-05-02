@@ -1,0 +1,12 @@
+#!/bin/bash
+
+summa=0
+for (( arv=1; arv<11; arv++ )) #arvud vahemikus 1-10
+do
+	jaak=$(($arv % 2)) #jagatud kahega
+	if [ $jaak -eq 0 ]; then #kui jääk on 0, siis
+		summa=$(($summa + $arv)) #liidetakse
+		echo $summa
+	fi
+done
+echo "Arvude vahemikus 1 kuni 10(kaasaarvatud) paarisarvude summa on: $summa"
